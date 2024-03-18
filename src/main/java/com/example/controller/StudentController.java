@@ -27,7 +27,7 @@ public class StudentController {
 			throw new InvalidFieldException("last name is required");
 		}
 		
-		return "Data is saved";
+		return "Data is saved..";
 		
 	}
 
