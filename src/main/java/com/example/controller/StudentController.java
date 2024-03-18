@@ -26,6 +26,7 @@ public class StudentController {
 		if(StringUtils.isBlank(student.getLastName())){
 			throw new InvalidFieldException("last name is required");
 		}
+		
 		return "Data is saved";
 		
 	}
